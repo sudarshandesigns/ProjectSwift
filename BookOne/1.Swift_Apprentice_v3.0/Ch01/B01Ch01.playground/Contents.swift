@@ -42,4 +42,38 @@ let average: Double = (a1 + b1) / 2
 
 exercisesSolved += 1
 
+// challenge 6
 
+// fahrenheit = (celcius * 1.8) + 32
+// So, celcius = (fahrenheit - 32) / 1.8
+
+let fahrenheit: Double = 100
+let celcius = (fahrenheit - 32) / 1.8
+
+exercisesSolved += 1
+
+// challenge 7
+
+let position: Int = 20
+let column: Int = position % 8
+let row: Int = position / 8
+
+exercisesSolved += 1
+
+// challenge 8
+
+let degrees: Double = 360
+let radians = (degrees / 180) * Double.pi
+
+exercisesSolved += 1
+
+// challenge 9
+
+let x1: Double = 1.0
+let y1: Double = 1.0
+let x2: Double = 3.0
+let y2: Double = 3.0
+
+let distance = sqrt( pow((x2 - x1), 2) + pow((y2 - y1), 2) )
+
+exercisesSolved += 1
